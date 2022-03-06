@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 id="header">Add New User</h1>
+    <div id="box">
+        <form action="/process" method="post" >
+            <label for="first_name" id="first">First Name:</label>
+            <input type="text" name="first_name" class="one">
+            <label for="last_name" id="last">Last Name:</label>
+            <input type="text" name="last_name" class="two">
+            <label for="email"id="email">Email:</label>
+            <input type="text" name="email" class="three">
+            <button type="submit" value="Add Friend" id="submit">Create</button>
+            <a href="http://127.0.0.1:5000/results" id="result">See Users</a>
+        </form>
+    </div>
+</body>
+</html>

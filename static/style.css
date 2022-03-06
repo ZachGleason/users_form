@@ -1,0 +1,93 @@
+#header {
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+#box {
+    border: 1px solid black;
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    background-color: bisque;
+}
+
+.one {
+    position: absolute;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.two {
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.three {
+    position: absolute;
+    display: flex;
+    margin-top: 300px;
+    margin-left: 70px;
+}
+
+#submit {
+    position: absolute;
+    display: flex;
+    margin-top: 370px;
+    margin-left: 120px;
+}
+
+#first {
+    position: absolute;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 110px;
+}
+
+#last {
+    position: absolute;
+    display: flex;
+    margin-top: 170px;
+    margin-left: 110px;
+}
+
+#email {
+    position: absolute;
+    display: flex;
+    margin-top: 275px;
+    margin-left: 125px;
+}
+
+
+
+/* */
+
+#container {
+    height: 820px;
+    width: 550px;
+    background-color: bisque;
+    border: 1px solid black;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#users {
+    text-align: center;
+}
+
+#new {
+    position: absolute;
+    display: flex;
+    margin-left: 245px;
+    margin-top: 10px;
+}
+
+#result {
+    position: absolute;
+    display: flex;
+    margin-top: 450px;
+    margin-left: 115px;
+}

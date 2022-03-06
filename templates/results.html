@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title> 
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<h1 id="users">Users List</h1>
+<form action="/new"></form>
+<div id="container" >
+{% for user in users %}
+<p >First Name : {{ user.first_name }}</p>
+<p >Last Name : {{ user.last_name }}</p>
+<p >Email : {{ user.email}}</p>
+<p >Created : {{ user.created_at }}</p>
+<p >Updated : {{ user.updated_at }}</p>
+<hr>
+{% endfor %}
+<a href="http://127.0.0.1:5000/new" id="new">New User</a>
+</form>
+</div>
+</body>
+</html>
